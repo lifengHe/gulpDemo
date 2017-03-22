@@ -1,0 +1,141 @@
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  font-size: 0;
+}
+.gulp-container {
+  font-family: 'PingFangSC-Light', 'Droid Sans', sans-serif;
+}
+.gulp-container img {
+  display: block;
+  vertical-align: top;
+}
+.gulp-container .banner {
+  width: 10rem;
+}
+.gulp-container .banner img {
+  width: 10rem;
+  height: 6.61333333rem;
+}
+.gulp-container .my-card-list {
+  margin-left: 0.4rem;
+}
+.gulp-container .my-card-list li {
+  padding: 0.4rem 0 0.42666667rem;
+  background-color: #fff;
+  text-indent: 0.05333333rem;
+  border-bottom: 1px solid #ebebeb;
+  position: relative;
+}
+.gulp-container .my-card-list li .gift-content {
+  font-size: 0.4rem;
+  line-height: 0.45333333rem;
+  color: #323232;
+  max-width: 7.73333333rem;
+}
+.gulp-container .my-card-list li .gmt-create {
+  color: #868686;
+  font-size: 0.34666667rem;
+  line-height: 0.4rem;
+  margin-top: 0.13333333rem;
+  max-width: 7.73333333rem;
+}
+.gulp-container .my-card-list li .activation {
+  font-size: 0.34666667rem;
+  line-height: 0.4rem;
+  position: absolute;
+  right: 0.4rem;
+  top: 50%;
+  margin-top: -0.2rem;
+}
+.gulp-container .my-card-list li .activation.yes {
+  color: #ff8833;
+}
+.gulp-container .my-card-list li .activation.yes:after {
+  content: '已激活';
+}
+.gulp-container .my-card-list li .activation.no {
+  color: #cacaca;
+}
+.gulp-container .my-card-list li .activation.no:after {
+  content: '未激活';
+}
+.gulp-container .my-card-list li.single {
+  padding: 0.53333333rem 0 0.58666667rem;
+}
+.gulp-container .fixed-wrap {
+  background-image: -webkit-linear-gradient(bottom, #0e1667, #1a279e);
+  background-image: linear-gradient(0deg, #0e1667 0%, #1a279e 100%);
+}
+.gulp-container .fixed-wrap .activation-process {
+  padding-top: 0.64rem;
+  width: 10rem;
+}
+.gulp-container .fixed-wrap .activation-process .intro {
+  width: 9.2rem;
+  margin: 0 auto;
+}
+.gulp-container .fixed-wrap .exclusive-privilege {
+  padding-top: 1.06666667rem;
+  position: relative;
+}
+.gulp-container .fixed-wrap .exclusive-privilege .title {
+  text-align: center;
+  color: #fff;
+  font-size: 0.48rem;
+  line-height: 0.53333333rem;
+  font-weight: bold;
+  padding-bottom: 0.53333333rem;
+}
+.gulp-container .fixed-wrap .exclusive-privilege .privilege-list {
+  position: relative;
+  z-index: 2;
+  margin-left: 0.4rem;
+  padding-bottom: 0.90666667rem;
+}
+.gulp-container .fixed-wrap .exclusive-privilege .privilege-list li .logo {
+  width: 1.33333333rem;
+  height: 1.33333333rem;
+  float: left;
+  margin-top: 0.26666667rem;
+}
+.gulp-container .fixed-wrap .exclusive-privilege .privilege-list li .text-intro {
+  float: right;
+  width: 7.46666667rem;
+  font-size: 0.4rem;
+  line-height: 0.45333333rem;
+  color: #fff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+.gulp-container .fixed-wrap .exclusive-privilege .privilege-list li .text-intro .contents {
+  margin-top: 0.34666667rem;
+  margin-bottom: 0.18666667rem;
+}
+.gulp-container .fixed-wrap .exclusive-privilege .privilege-list li .text-intro .tips {
+  opacity: .5;
+  margin-bottom: 0.42666667rem;
+}
+.gulp-container .fixed-wrap .exclusive-privilege .privilege-list li:nth-child(2) .logo,
+.gulp-container .fixed-wrap .exclusive-privilege .privilege-list li:nth-child(4) .logo,
+.gulp-container .fixed-wrap .exclusive-privilege .privilege-list li:nth-child(5) .logo {
+  margin-top: 0.37333333rem;
+}
+.gulp-container .fixed-wrap .exclusive-privilege .privilege-list li:nth-child(2) .text-intro .contents,
+.gulp-container .fixed-wrap .exclusive-privilege .privilege-list li:nth-child(4) .text-intro .contents,
+.gulp-container .fixed-wrap .exclusive-privilege .privilege-list li:nth-child(5) .text-intro .contents {
+  margin-top: 0.45333333rem;
+}
+.gulp-container .fixed-wrap .exclusive-privilege .privilege-list li:nth-child(2) .text-intro .tips,
+.gulp-container .fixed-wrap .exclusive-privilege .privilege-list li:nth-child(4) .text-intro .tips,
+.gulp-container .fixed-wrap .exclusive-privilege .privilege-list li:nth-child(5) .text-intro .tips {
+  margin-bottom: 0.56rem;
+}
+.gulp-container .fixed-wrap .exclusive-privilege .captions {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 10rem;
+  height: 9.30666667rem;
+}
